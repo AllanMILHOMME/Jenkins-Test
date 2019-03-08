@@ -1,5 +1,6 @@
 build:
   script:
     - ls
+    - echo "$GITHUB_TOKEN"
   tags:
     - build
