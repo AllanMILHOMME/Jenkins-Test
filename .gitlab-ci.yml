@@ -1,6 +1,5 @@
 build:
   script:
-    - ls
-    - echo "$GITHUB_TOKEN"
+    - ./build-support/build-pic-insa.sh
   tags:
     - build
