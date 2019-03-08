@@ -1,4 +1,4 @@
-java --jar BadgeScript.jar failed unknown
+java -jar BadgeScript.jar failed unknown
 
 git push https://$GITHUB_TOKEN@github.com/AllanMILHOMME/Jenkins-Test $CI_COMMIT_REF_NAME
 
